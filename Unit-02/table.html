@@ -6,58 +6,66 @@
     <title>Table</title>
 </head>
 <body>
-    <!-- <table border="2" width="80%" align="center" cellspacing="0">
+    <h1 align="center">Table-1</h1>
+    <br>
+     <table border="2" width="80%" align="center" cellspacing="0">
+        <!--border is for outside border only 
+            cellspacing is for spaces between cells 
+            width is for table width
+            cellpadding is for cell size vertically-->
+        <!-- <tr align="center"> -->
         <tr>
             <th>S.no</th>
             <th>Name</th>
             <th>Mob</th>
             <th>Branch</th>
         </tr>
-        <tr>
+        <tr align="center">
             <td>01</td>
             <td>Gopal</td>
             <td>9695894999</td>
             <td>CSE</td>
         </tr>
-        <tr>
+        <tr align="center">
             <td>02</td>
             <td>Anuj</td>
             <td>9456548991</td>
-            <td rowspan="1"></td>
             <td>CSE</td>
         </tr>
-        <tr>
+        <tr align="center">
             <td>03</td>
             <td>Harsh</td>
             <td>8989898987</td>
-            <td>AIML</td> -->
-        <!-- </tr> -->
+            <td>AIML</td> 
          
-
-    <!-- </table> -->
+ </table> 
+ <h1 align="center">Table-2</h1>
+ <br>
+ <!--rowspan is for merging row cells-->
      <table border="2" width="80%" align="center" cellspacing="0">
-        <tr>
-            <td>Column Cell1</td>
-            <td>Column Cell2</td>
-            <td>Column Cell3</td>
+        <tr align="center">
+            <td>Column Cell 1</td>
+            <td>Column Cell 2</td>
+            <td>Column Cell 3</td>
         </tr>
-        <tr>
-            <td>Row1 Cell1</td>
-            <td>Row1 Cell2</td>
-            <td>Row1 Cell3</td>
+        <tr align="center">
+               <td rowspan="2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <!-- <td>Row 1 Cell 3</td> -->
         </tr>
-        <tr>
-            <td>Row2 Cell1</td>
-            <td>Row2 Cell2</td>
-            <td>Row2 Cell3</td>
-        </tr><tr>
-            <td>Row3 Cell1</td>
-            <td>Row3 Cell2</td>
-            <td>Row3 Cell3</td>
+        <tr align="center">
+            <!-- <td>Row2 Cell1</td> -->
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+        </tr>
+        <tr align="center">
+            <!-- <td>Row3 Cell1</td> -->
+            <td colspan="2">Row 3 Cell 2</td>
+            <td>Row 3 Cell 3</td>
         </tr>
         
-        
-
      </table>
+
     </body>
 </html>
